@@ -57,7 +57,7 @@ namespace CasaDoCodigo.Controllers
 
             if (pedido == null)
             {
-                return RedirectToAction("Carrossel");
+                return RedirectToAction("BuscaDeProdutos");
             }
 
             return View(pedido.Cadastro);
